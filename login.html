@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.css" >
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <title>third IP</title>
+    </head>
+    <body>
+        <nav class="row navbar navbar-light navbar-expand-lg" style="background-color: #eccc17;">
+            <a href="#" class="navbar-brand col-md-6">Quiz Board System</a>
+            <a href="#" class="nav-item active col-md-2" style="color: black">Working Area</a>
+            <a href="#" class="nav-item nav-link disabled col-md-3"></a>
+            <img src="icons/avatar2.jpg" alt="logged in user icon" class="nav-item col-md-1" width="40" height="50">
+        </nav>
+         <main>
+            <header>Welcome to Quiz Board</header>
+            <div class="questions">
+                <form name="qboard" id="quizboard">
+                    <div class="selection">
+                        <p>
+                            <label for="correct-answer">Choose your subject:</label>
+                            <select id="choices" name="choices">
+                                <option value="Current Affairs">Current Affairs</option>
+                                <option value="Current Affairs">Current Affairs</option>
+                            </select>
+                        </p>
+                    </div>
+                    <div class="instructions">
+                        <h3>Instructions:</h3>
+                        <p>Choose the correct option for each question.</p>
+                        <p><b>NB: </b>Each question carries 20 marks.</p>
+                    </div>
+                    <div class="qn">
+                        1. How many presidents the Republic of Kenya has had so far?
+                        <p><input type="checkbox" name="question1" value="A">A: 4</p>
+                        <p><input type="checkbox" name="question1" value="B">B: 5</p>
+                        <p><input type="checkbox" name="question1" value="C">C: All of the above</p>
+                        <p><input type="checkbox" name="question1" value="D">D: None of the above</p>
+                    </div>
+                    <div class="qn">
+                        2. When did the Covid-19 pandemic strike the globe?
+                        <p><input type="checkbox" name="question2" value="A">A: 2022</p>
+                        <p><input type="checkbox" name="question2" value="B">B: 2020</p>
+                        <p><input type="checkbox" name="question2" value="C">C: 2021</p>
+                        <p><input type="checkbox" name="question2" value="D">D: 2019</p>
+                    </div>
+                    <div class="qn">
+                        3. Select the country that owns the Huawei technology
+                        <p><input type="checkbox" name="question3" value="A">A: Kenya</p>
+                        <p><input type="checkbox" name="question3" value="B">B: Germany</p>
+                        <p><input type="checkbox" name="question3" value="C">C: France</p>
+                        <p><input type="checkbox" name="question3" value="D">D: China</p>
+                        </div>
+                    <div class="qn">
+                        4. Which one of the is NOT a safety precaution against the spread of Covid-19?
+                        <p><input type="checkbox" name="question4" value="A">A: Maintaining physical distance in public</p>
+                        <p><input type="checkbox" name="question4" value="B">B: Sanitizing</p>
+                        <p><input type="checkbox" name="question4" value="C">C: Surgery</p>
+                        <p><input type="checkbox" name="question4" value="D">D: Vccination/Jab</p>
+                    </div>
+                    <div class="qn">
+                        5. When will the next World Cup occur?
+                        <p><input type="checkbox" name="question5" value="A">A: 2025</p>
+                        <p><input type="checkbox" name="question5" value="B">B: 2022</p>
+                        <p><input type="checkbox" name="question5" value="C">C: 2024</p>
+                        <p><input type="checkbox" name="question5" value="D">D: None of the above</p>
+                    </div>
+    
+                    <input type="submit" value="Submit" id="submit-1">
+                </form>
+            </div>
+            <div id="feedback">
+            </div>
+        
+        <script src="js/index.js"></script>
+    </body>
+    </html>
